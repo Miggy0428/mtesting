@@ -56,7 +56,7 @@ class CreateMembershipApplicationFormsTable extends Migration
             $table->text('endorsed_by');
             $table->text('concurred_by');
             $table->text('approved_by');
-            $table->timestamps()->nullable();
+            $table->timestamps();
         });
     }
 
